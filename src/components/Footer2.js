@@ -8,32 +8,32 @@ const Footer = () => {
               <h2 className="font-semibold text-slate-900">Getting Started</h2>
               <ul className="mt-3 space-y-2">
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Installation
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Editor Setup
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Using with Preprocessors
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Optimizing for Production
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Browser Support
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Upgrade Guide
                   </a>
                 </li>
@@ -43,37 +43,37 @@ const Footer = () => {
               <h2 className="font-semibold text-slate-900">Core Concepts</h2>
               <ul className="mt-3 space-y-2">
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Utility-First Fundamentals
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Handling Hover, Focus, and Other States
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Responsive Design
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Dark Mode
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Reusing Styles
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Adding Custom Styles
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Functions &amp; Directives
                   </a>
                 </li>
@@ -85,42 +85,42 @@ const Footer = () => {
               <h2 className="font-semibold text-slate-900">Customization</h2>
               <ul className="mt-3 space-y-2">
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Configuration
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Content Configuration
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Theme Configuration
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Customizing Screens
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Customizing Colors
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Customizing Spacing
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Plugins
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Presets
                   </a>
                 </li>
@@ -130,31 +130,22 @@ const Footer = () => {
               <h2 className="font-semibold text-slate-900">Community</h2>
               <ul className="mt-3 space-y-2">
                 <li>
-                  <a
-                    className="hover:text-slate-900"
-                    href="#"
-                  >
+                  <a className="hover:text-slate-900" href="#!">
                     GitHub
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-slate-900" href="#">
+                  <a className="hover:text-slate-900" href="#!">
                     Discord
                   </a>
                 </li>
                 <li>
-                  <a
-                    className="hover:text-slate-900"
-                    href="#"
-                  >
+                  <a className="hover:text-slate-900" href="#!">
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a
-                    className="hover:text-slate-900"
-                    href="#"
-                  >
+                  <a className="hover:text-slate-900" href="#!">
                     YouTube
                   </a>
                 </li>
