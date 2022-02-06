@@ -27,16 +27,14 @@ const Footer = (props) => {
                 </p>
               )}
 
-              {navigation &&
-                navigation.social &&
-                navigation.social.contact && (
-                  <p className="flex items-center text-sm text-dark font-medium">
-                    <span className="text-primary mr-3">
-                      <PhoneIcon className="h-6 w-6" aria-hidden="true" />
-                    </span>
-                    <span>{navigation.social.contact}</span>
-                  </p>
-                )}
+              {navigation && navigation.social && navigation.social.contact && (
+                <p className="flex items-center text-sm text-dark font-medium">
+                  <span className="text-primary mr-3">
+                    <PhoneIcon className="h-6 w-6" aria-hidden="true" />
+                  </span>
+                  <span>{navigation.social.contact}</span>
+                </p>
+              )}
             </div>
           </div>
 
@@ -49,7 +47,13 @@ const Footer = (props) => {
               >
                 <div className="w-full mb-10">
                   <h4 className="text-dark text-lg font-semibold mb-9">
-                    {link.title}
+                    {link.href ? (
+                      <a href={link.href} title={link.title}>
+                        {link.title}
+                      </a>
+                    ) : (
+                      link.title
+                    )}
                   </h4>
                   <ul>
                     {link.links &&
