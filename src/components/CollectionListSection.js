@@ -14,7 +14,7 @@ const callouts = [
     name: "Travel",
     description: "Daily commute essentials",
     imageSrc:
-    "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
+      "https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg",
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
     href: "#",
   },
@@ -29,9 +29,9 @@ const callouts = [
   },
 ];
 
-const CollectionListSection = () => {
+const CollectionListSection = (props) => {
   return (
-    <div className="bg-gray-100">
+    <div className={props.classList}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           <h2 className="text-2xl font-extrabold text-gray-900">Collections</h2>
